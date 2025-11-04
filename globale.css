@@ -55,3 +55,12 @@ h1{
     padding: 2rem;
     color: beige;
 }
+.containerApropos{
+   background-color: beige;
+   padding: 2rem;
+   
+}
+.containerContact{
+    text-align: center;
+    padding: 2rem;
+}
