@@ -4,17 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="globale.css"> <!--todo : ajouter le bon lien -->
-    <title>Recettes de Quiches </title>
+    <link rel="stylesheet" href="globale.css">
+    <title>Destination Quiche</title>
+    <!--FONT awsome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+    <!--google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Licorice&family=Momo+Signature&family=Story+Script&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <!-- ** Ceci est un premier squelette du HTML pour que vous ayez un socle sur lequel travailler  -->
+
 
     <!----------------------Header -------------------------->
     <header>
         <div class="topnav">
-            <a href="#home">Acceuil</a>
+            <a href="#home"><i class="fa-solid fa-house"></i>Acceuil</a>
             <a href="#recettes">Recettes</a>
             <a href="#apropos">A propos</a>
             <a href="#contact">Contact</a>
@@ -24,7 +30,9 @@
     <!---------------------- Acceuil -------------------------->
 
     <main>
-        <h1>Les meilleures recettes</h1>
+        <img src="images/logo.png"alt="Logo d'une quiche qui voyage"  width="250" height="250">
+        <h1>Destination Quiche</h1>
+        <h2>Les meilleures recettes de quiches belges, testées, débattues… et dévorées.</h2>
         <div class="containerCard">
             <div id="recettes" class="card">
                 <img src="img/image1.webp" alt="" class="card-img-top">
@@ -192,18 +200,41 @@
     </main>
 
     <!---------------------- A propos -------------------------->
-    <!--** à completer  -->
+   <!-- todo:Caro ajouter img -->
     <div id="apropos" class="containerApropos">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-            commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-            anim id est laborum </p>
+        <p>Nous sommes un groupe de trois amies, passionnées — que dis-je, obsédées — par les quiches. <br> Depuis des
+            années, nous sillonnons les terroirs de Belgique : de petites auberges cachées dans les Ardennes aux marchés
+            du dimanche à Bruxelles, en passant par des boulangeries de villages dont personne ne connaît l’adresse
+            exacte sauf les habitants… et Google Maps quand il veut bien.
+        </p><br>
+        <p>
+            Au fil de nos voyages (et de nos dégustations intensives — pure recherche scientifique, évidemment), nous
+            avons goûté, comparé, écouté, noté, discuté, argumenté, re-goûté…
+            <br>
+            Résultat : nous avons rassemblé ici les recettes les plus irrésistibles, les plus surprenantes, les plus
+            réconfortantes.
+            <br>
+            Et ce trésor de saveurs, on a décidé de ne plus le garder secrètement dans nos carnets tachés de crème.
+            <br>
+            On le partage.
+            <br>
+            Ici.
+            <br>
+            Avec vous.
+        </p>
+        <p>
+            Oui, pour <span>VOUS — amateur·trice de pâte brisée croustillante</span>, gourmande de lardons caramélisés, chercheur de
+            fromages crémeux, expérimentatrice de quiche végétarienne épicée… vous êtes au bon endroit.
+            <br>
+            Bienvenue dans le temple belge de la quiche.
+            <br>
+            Servez-vous, inspirez-vous, salivez sans modération — et surtout : cuisinez. 🍽️💛
+        </p>
     </div>
 
     <!---------------------- Contact -------------------------->
     <!--** à completer  -->
-    <div class="containerContact">
+    <div id="contact" class="containerContact">
         <h2> En savoir plus </h2>
         <form method="post">
             <!-- Champ pour le nom -->
@@ -223,10 +254,11 @@
         </form>
     </div>
     <!---------------------- Footer -------------------------->
-    <!--** à completer  -->
-    <div class="containerFooter">
-
-    </div>
+   
+    <footer>
+        <p>Auteurices : Carolïne, Faouzia & Louïse Corporation</p>
+        <p><i class="fa-brands fa-instagram"></i><i class="fa-brands fa-facebook"></i><a href="mailto:hege@example.com">hege@example.com</a></p>
+    </footer>
 
 </body>
 
