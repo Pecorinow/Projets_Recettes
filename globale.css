@@ -65,6 +65,11 @@ h1 {
     color: beige;
     /* ⚠️ contrastes  */
 }
+h2{
+    text-align: center;
+    color: white;
+    font-family: "Dancing Script", cursive;
+}
 
 .containerApropos {
     background-color: beige;
@@ -90,8 +95,37 @@ input[type=submit]{
     padding: 0.5rem 1rem;
     border-radius: 0.5rem;
     box-shadow: rgb(90, 146, 206) 0px 20px 30px -10px;
+    transition: all 200ms linear;
+    margin: 1rem 7rem;
+    &:hover{
+        background-color: rgb(90, 146, 206);
+        color: white;
+    }
 }
 input, textarea{
     padding: 0.2rem 2rem;
     margin: 1rem;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #96B8DB;
+    padding: 1rem;
+    color: beige;
+    a {
+        text-decoration: none;
+        color: aliceblue;
+        color: beige; /* ⚠️ contrastes  */
+        font-weight: bolder;
+        font-size: larger;
+
+        &:hover {
+            background-color: #00A4E8;
+        }
+        
+    }
+    i{
+        margin: 0 0.5rem;
+    }
 }
