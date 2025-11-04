@@ -7,7 +7,7 @@
 body {
     display: flex;
     flex-direction: column;
-    background-color: #A4DBDB;
+    background-color: #0effff;
     min-height: 100vh;
     width: 900px;
     margin: auto;
@@ -68,12 +68,12 @@ header{
 h1 {
     text-align: center;
     padding: 2rem;
-    color: beige;
+    color: rgb(119, 0, 255);
     /* ⚠️ contrastes  */
 }
 h2{
     text-align: center;
-    color: white;
+    color: rgb(195, 0, 255);
     font-family: "Dancing Script", cursive;
     font-weight: bolder;
     font-size: larger;
@@ -130,7 +130,7 @@ footer{
         font-size: larger;
 
         &:hover {
-            background-color: #00A4E8;
+            background-color: #ff008c;
         }
         
     }
