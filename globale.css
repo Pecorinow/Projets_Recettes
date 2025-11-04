@@ -1,18 +1,19 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     display: flex;
     flex-direction: column;
-    background-color:  #A4DBDB ;
+    background-color: #A4DBDB;
     min-height: 100vh;
     width: 900px;
     margin: auto;
 }
 
-.card{
+.card {
     width: 80%;
     height: 20rem;
     display: flex;
@@ -25,12 +26,13 @@ body{
     margin: 2rem;
     background-color: #98b0c9;
 
-    img{
+    img {
         width: 50%;
         height: 15rem;
     }
 }
-.topnav{
+
+.topnav {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,29 +40,34 @@ body{
     gap: 2rem;
     padding: 2rem;
 
-    a{
+    a {
         text-decoration: none;
         color: aliceblue;
+        color: beige; /* ⚠️ contrastes  */
         font-weight: bolder;
         font-size: larger;
-        &:hover{
+
+        &:hover {
             background-color: #00A4E8;
         }
     }
 
 }
 
-h1{
+h1 {
     text-align: center;
     padding: 2rem;
     color: beige;
+    /* ⚠️ contrastes  */
 }
-.containerApropos{
-   background-color: beige;
-   padding: 2rem;
-   
+
+.containerApropos {
+    background-color: beige;
+    padding: 2rem;
+
 }
-.containerContact{
+
+.containerContact {
     text-align: center;
     padding: 2rem;
 }
